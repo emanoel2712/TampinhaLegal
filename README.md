@@ -30,7 +30,7 @@ Segue o video:
 - Apache Tomcat - Rodar o projeto localhost
 
 # Como executar o app
-- Abrir a pasta webservice&bancodedados, onde está o projeto do webservice descompactar o projeto que é o arquivo .zip, e abrir em alguma IDE, após isso abrir o mysql importar o arquivo .dump que é o banco de dados. Após isso ir no projeto do app na classe PontosDeColetaControl e ir no método carregarPontos() e mudar o ip inserido na 'String url' pro ip da sua rede. Após isso só executar o  webservice com apache tomcat ou glassfish e depois executar o app.
+- Abrir a pasta webservice&bancodedados, descompactar o projeto do servidor que é o arquivo .zip, e abrir em alguma IDE, após isso abrir o mysql importar o arquivo .dump que é o banco de dados. Após isso ir no projeto do app na classe PontosDeColetaControl e ir no método carregarPontos() e mudar o ip inserido na 'String url' pro ip da sua rede. Após isso só executar o  webservice com apache tomcat ou glassfish e depois executar o app.
 
 
 
