@@ -13,7 +13,7 @@ Segue o video:
 [![](http://img.youtube.com/vi/CYWFeImkCfo/0.jpg)](http://www.youtube.com/watch?v=CYWFeImkCfo "")
 
 
-# Alguns Frameworks/Serviços utilizados na criação do app
+# Alguns frameworks/serviços utilizados na criação do app
 
 - Google Play Services - para usar a API do Google Maps
 - API GOOGLE MAPS FOR ANDROID SDK - para utilizar a parte de mapa do google
