@@ -18,7 +18,7 @@ Segue o video:
 - Google Play Services - para usar a API do Google Maps
 - API GOOGLE MAPS FOR ANDROID SDK - para utilizar a parte de mapa do google
 - Carousel - para fazer a parte carousel mesmo das imagens de patrocinio ( Só aparece 1 imagem no video pois só botei 1 imagem )
-- Glide - para carregar a imagem do patrocinio através da url da mesma vinda do servidor 
+- Glide - para carregar a imagem do patrocinio através da url vinda do servidor 
 - LocationManager - para pegar localização atual do usuário
 - Geocoder - pra permitir a pesquisa através do endereço inserido pelo usuário
 - Android Async Http Client, Http Client - para estabelecer uma conexão http assincrona com o servidor e fazer a requisição  
