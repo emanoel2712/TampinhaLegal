@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.MainActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:orientation="vertical"
+            tools:ignore="MissingConstraints">
+
+            <ImageView
+                android:layout_width="250dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/logo" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Patrocínio"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintLeft_toLeftOf="parent"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <com.synnapps.carouselview.CarouselView
+                android:id="@+id/carouselView"
+                android:layout_width="300dp"
+                android:layout_height="120dp"
+                android:scaleType="centerCrop"
+                app:fillColor="#FFFFFFFF"
+                app:pageColor="#00000000"
+                app:radius="6dp"
+                app:slideInterval="3000"
+                app:strokeColor="#FF777777"
+                app:strokeWidth="1dp"></com.synnapps.carouselview.CarouselView>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="N° de tampinhas coletadas" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="231.945.425"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Valor Arrecadado" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="R$ 780.290,93"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+                android:text="Peso Total" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="417.168,03 Kg"
+                android:textSize="20dp"
+                android:textStyle="bold" />
+
+
+        </LinearLayout>
+
+
+            <Button
+                android:layout_marginTop="20dp"
+                style="@style/CustomButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/brazilatt"
+                android:paddingLeft="20dp"
+                android:drawablePadding="-50dp"
+                android:text="Números por Estado"></Button>
+
+
+            <Button
+                style="@style/CustomButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/pontoscoleta"
+                android:paddingLeft="20dp"
+                android:id="@+id/btPontosColeta"
+                android:onClick="telaPontosColeta"
+                android:drawablePadding="-50dp"
+                android:text="Pontos de Coleta"></Button>
+
+            <Button
+                style="@style/CustomButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:drawableLeft="@drawable/notificacoes"
+                android:paddingLeft="20dp"
+                android:drawablePadding="-50dp"
+                android:text="Notificações"></Button>
+
+            <Button
+                style="@style/CustomButton"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginBottom="10dp"
+                android:text="Saiba Mais"
+                android:drawableLeft="@drawable/saiba_mais"
+                android:paddingLeft="20dp"
+                android:drawablePadding="-50dp"
+
+                ></Button>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:text="www.tampinhalegal.com.br"
+            android:textAlignment="center" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="App. Pontos de Coleta 1.0"
+            android:textAlignment="center"
+            android:layout_marginBottom="20dp"
+            />
+
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>
