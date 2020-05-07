@@ -8,11 +8,12 @@ Também há a função de pegar a localização do usuário do app em tempo real
 
 Foi utilizado o padrão de arquitetura MVC no projeto. 
 
+Segue o video:
+
+[![](http://img.youtube.com/vi/CYWFeImkCfo/0.jpg)](http://www.youtube.com/watch?v=CYWFeImkCfo "")
 
 
-
-
-# Alguns outros frameworks/serviços utilizados
+# Alguns outros frameworks/serviços utilizados na criação do app
 
 - Google Play Services - para usar a API do Google Maps
 - API GOOGLE MAPS FOR ANDROID SDK - para utilizar a parte de mapa do google
@@ -23,7 +24,14 @@ Foi utilizado o padrão de arquitetura MVC no projeto.
 - Android Async Http Client, Http Client - para estabelecer uma conexão http assincrona com o servidor e fazer a requisição  
 - Gson - para pegar o gson vindo do webservice
 
-# Parte utilizada no webservice:
+# Tecnologias utilizadas na criação do webservice:
 - API REST - Para fazer a requisição GET listando os dados
 - MySql - Banco de dados, para guardar as informações necessárias
 - Apache Tomcat - Rodar o projeto localhost
+
+# Como executar o app
+- Abrir a pasta webservice&bancodedados, onde está o projeto do webservice descompactar o projeto que é o arquivo .zip, e abrir em alguma IDE, após isso abrir o mysql importar o arquivo .dump que é o banco de dados. Após isso ir no projeto do app na classe PontosDeColetaControl e ir no método carregarPontos() e mudar o ip inserido na 'String url' pro ip da sua rede. Após isso só executar o  webservice com apache tomcat ou glassfish e depois executar o app.
+
+
+
+
