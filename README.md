@@ -25,7 +25,7 @@ Segue o video:
 - Gson - para pegar o gson vindo do webservice
 
 # Tecnologias utilizadas na criação do webservice:
-- API REST - Para fazer a requisição GET listando os dados
+- API REST usando JAX-RS - Para fazer a requisição GET listando os dados
 - MySql - Banco de dados, para guardar as informações necessárias
 - Apache Tomcat - Rodar o projeto localhost
 
