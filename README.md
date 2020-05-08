@@ -1,5 +1,5 @@
 # TampinhaLegal
-APP Android, que consome um webservice e a API do Google Maps
+APP Android e Servidor
 
 Esse app seria relacionado a um projeto que arrecada tampinhas de plástico. Devido ao cliente não
 solicitar contato para continuar o app, foi feita só a parte de Pontos de Coleta, onde mostra a localização dos pontos de coleta
