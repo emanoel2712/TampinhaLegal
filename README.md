@@ -30,7 +30,10 @@ Segue o video:
 - Apache Tomcat - Rodar o projeto localhost
 
 # Como executar o app
-- Abrir o zip webservice&bancodedados, descompactar o projeto do servidor que é o arquivo .zip, e abrir em alguma IDE, após isso abrir o mysql importar o arquivo .dump que é o banco de dados. Após isso ir no projeto do app na classe PontosDeColetaControl e ir no método carregarPontos() e mudar o ip inserido na 'String url' pro ip da sua rede. Após isso só executar o  webservice com apache tomcat ou glassfish e depois executar o app.
+- Fazer o download do zip webservice&bancodedados, descompacta-lo e abrir o projeto do servidor chamado 'TampinhaLegalWS' em alguma IDE
+- Após isso abrir o MySql e importar o banco de dados chamado 'bancodedados_tampinhafeliz'
+- Após isso ir baixar o projeto do app, abri-lo em alguma IDE de preferencia Android Studio, ir na classe PontosDeColetaControl e ir no método carregarPontos() e mudar o ip inserido na 'String url' para o ip da sua rede. 
+- Após isso executar o webservice com Apache Tomcat ou Glassfish e depois executar o app.
 
 
 
